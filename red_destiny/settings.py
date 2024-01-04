@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "red_blog.apps.RedBlogConfig"
 ]
 
 MIDDLEWARE = [
