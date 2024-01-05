@@ -11,6 +11,8 @@ class PostFile(models.Model):
         verbose_name = "Post file"
         verbose_name_plural = "Post files"
 
+    objects = models.Manager()
+
     def increment_count(self):
         self.download_count += 1
         self.save()
